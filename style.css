@@ -1,0 +1,181 @@
+/* Import Google Fonts: Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset dan dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigasi */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #e2e8f0;
+  border-radius: 5px;
+}
+
+/* Konten Utama */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main section {
+  background: #fff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main section h2 {
+  margin-bottom: 1rem;
+  color: #667eea;
+}
+
+main section p {
+  margin-bottom: 1rem;
+}
+
+/* Elemen interaktif details & summary */
+details {
+  background: #f1f5f9;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+details[open] {
+  background: #e2e8f0;
+}
+
+details summary {
+  font-weight: bold;
+  outline: none;
+}
+
+/* Galeri */
+figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Kontak dan Address */
+address {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+address a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+address a:hover {
+  text-decoration: underline;
+}
+
+/* Formulir */
+form p {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+form input[type="submit"] {
+  background: #667eea;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background: #556cd6;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
